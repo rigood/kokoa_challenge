@@ -1,0 +1,133 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px 20px 30px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.friends-screen .user-component i {
+  color: #3a3995;
+}
+.friends-screen .user-component:hover {
+  transform: translateY(5px);
+}
+
+.chats-screen .user-component:hover {
+  transform: translateY(5px);
+}
+
+.user-component__column:first-child {
+  /*프로필*/
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.user-component__column:last-child {
+  /*아이콘*/
+  position: relative; /*chats-screen 배지 때문에*/
+}
+
+.user-component__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component__name {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.user-component__desc {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* Chats-screen */
+
+.chats-screen .user-component:first-child {
+  animation: junho 0.5s ease-in-out alternate infinite;
+}
+
+@keyframes junho {
+  0% {
+    transform: none;
+  }
+
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+.chats-screen .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chats-screen .user-component__img {
+  margin-right: 15px;
+}
+
+.user-component__time {
+  font-size: 11px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+  text-align: end;
+}
+
+.user-component__name-box {
+  margin-bottom: 8px;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.fa-thumbtack {
+  color: tomato;
+}
+
+/* More-screen */
+
+.more-screen .user-component {
+  margin: 10px 0px 20px 0px;
+  padding: 20px 50px;
+  border-radius: 0;
+  background: linear-gradient(to right, #5d469e, #3a3995, #5d469e);
+  color: white;
+}
+
+.more-screen .user-component__img {
+  width: 105px;
+  height: 150px;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+
+.more-screen .user-component__name {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.more-screen .user-component__desc {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.more-screen .fa-share-from-square {
+  font-size: 25px;
+  opacity: 0.8;
+  margin-right: 20px;
+}

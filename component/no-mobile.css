@@ -1,0 +1,40 @@
+#no-mobile {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: #e8f4fd;
+}
+
+#no-mobile__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: boom 1s ease-in-out infinite;
+}
+
+@keyframes boom {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale(0.98);
+  }
+}
+
+#no-mobile img {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#no-mobile span {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  #no-mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+@import "reset.css";
+
+/* component */
+@import "component/status-bar.css";
+@import "component/screen-header.css";
+@import "component/notice-header.css";
+@import "component/section-header.css";
+@import "component/nav-bar.css";
+@import "component/badge.css";
+@import "component/user-component.css";
+@import "component/no-mobile.css";
+
+/* screen */
+@import "screen/index.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/view.css";
+@import "screen/more.css";
+@import "screen/notice.css";
+@import "screen/chat.css";
+@import "screen/ost.css";
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins&display=swap");
+
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CookieRunOTF-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "NEXON Lv1 Gothic OTF";
+}

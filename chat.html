@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat｜이상한 변호사 우영우 (Extraordinary Attorney Woo)</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fa-solid fa-water"></i>
+        <span>HANBADA</span>
+      </div>
+      <div class="status-bar__column">
+        <span>21 : 00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fa-solid fa-battery-full"></i>
+      </div>
+    </div>
+
+    <div class="notice-header">
+      <div class="notice-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left"></i>
+        </a>
+      </div>
+      <div class="notice-header__column">
+        <h1 class="notice-header__title">이준호</h1>
+      </div>
+      <div class="notice-header__column">
+        <i class="fa-solid fa-magnifying-glass chat-header-magnifying-icon"></i>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <main class="chat-screen">
+      <!--타임스탬프-->
+      <div class="time-stamp">
+        <i class="fa-solid fa-calendar-days"></i>
+        <span>2022년 6월 30일 목요일</span>
+      </div>
+      <!--영우 그림-->
+      <div class="message-row message-row--me">
+        <div class="message-row__content">
+          <div class="message__text">
+            <span class="message__bubble">
+              <br /><br /><br /><br /><br />
+              '--------------------'</span
+            >
+          </div>
+        </div>
+      </div>
+      <!--영우 질문-->
+      <div class="message-row message-row--me">
+        <div class="message-row__content">
+          <div class="message__text">
+            <span class="message__bubble">
+              이준호씨 이거보십시오. 이렇게하니 마치<br />
+              향고래처럼 보이지 않습니까?</span
+            >
+            <span class="message__time">오전 11:12</span>
+          </div>
+        </div>
+      </div>
+      <div class="blank"></div>
+      <!--준호 답장-->
+      <div class="message-row">
+        <img src="img/junho.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">이준호</span>
+          <div class="message__text">
+            <span class="message__bubble"
+              >귀엽네요. 다른 고래도 만들어 볼까요?</span
+            >
+          </div>
+        </div>
+      </div>
+      <!--준호 그림-->
+      <div class="message-row">
+        <img class="invisible" src="img/junho.jpg" />
+        <div class="message-row__content">
+          <div class="message__text">
+            <span class="message__bubble">
+              🎀<br><br /><br /><br /><br />
+              '--------------------'</span
+            >
+            <span class="message__time">오전 11:14</span>
+          </div>
+        </div>
+      </div>
+      <div class="blank"></div>
+      <!--영우 설명-->
+      <div class="message-row message-row--me">
+        <div class="message-row__content">
+          <div class="message__text">
+            <span class="message__bubble">
+              고래는 리본을 달 수 없습니다. 피부의<br />
+              표면이 매끄럽기 때문이죠. 하지만 고래의<br />
+              얼굴이라 칭할 수 있는 부분을 둘러서<br />
+              리본을 묶으면 가능할 것도 같군요.<br />
+              그렇다면 평균 크기의 향고래의 얼굴에<br />
+              리본을 묶어주기 위해서는 몇미터의 리본이<br />
+              필요할까요?</span
+            >
+            <span class="message__time">오전 11:25</span>
+          </div>
+        </div>
+      </div>
+      <div class="blank"></div>
+      <!--준호 점심-->
+      <div class="message-row">
+        <img src="img/junho.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">이준호</span>
+          <div class="message__text">
+            <span class="message__bubble"
+              >궁금하네요. 그건 점심 먹으면서<br />
+              얘기해주실래요?</span
+            >
+            <span class="message__time">오전 11:25</span>
+          </div>
+        </div>
+      </div>
+      <div class="blank"></div>
+      <!--영우 대답-->
+      <div class="message-row message-row--me">
+        <div class="message-row__content">
+          <div class="message__text">
+            <span class="message__bubble"> 네</span>
+            <span class="message__time">오후 6:29</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요." />
+      </div>
+      <div class="reply__column">
+        <i class="fa-solid fa-face-smile-wink"></i>
+        <i class="fa-solid fa-paper-plane"></i>
+      </div>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div id="no-mobile__box">
+        <img src="img/no-mobile.png" />
+        <span>화면 크기를 줄여주세요.</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/13650dff62.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

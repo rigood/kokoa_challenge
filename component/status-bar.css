@@ -1,0 +1,34 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  z-index: 1;
+  background-color: #fcf5eb;
+}
+
+.status-bar span {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column:last-child span {
+  margin-right: 5px;
+}

@@ -1,0 +1,142 @@
+#ost-screen {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 10px 70px;
+  position: relative;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.component-img:hover {
+  transform: scale(1.1);
+}
+
+.component-name {
+  color: #b783a7;
+  margin-bottom: 15px;
+}
+
+.component-genre {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.big-square {
+  width: 235px;
+  height: 240px;
+  border-radius: 20px;
+  box-shadow: rgba(183, 131, 167, 0.25) 0px 30px 60px,
+    rgba(183, 131, 167, 0.12) 0px -12px 30px,
+    rgba(183, 131, 167, 0.12) 0px 4px 6px,
+    rgba(183, 131, 167, 0.17) 0px 12px 13px,
+    rgba(183, 131, 167, 0.09) 0px -3px 5px;
+  margin-top: 65px;
+  margin-bottom: 50px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: rgba(183, 131, 167, 0.25) 0px 30px 60px,
+      rgba(183, 131, 167, 0.12) 0px -12px 30px,
+      rgba(183, 131, 167, 0.12) 0px 4px 6px,
+      rgba(183, 131, 167, 0.17) 0px 12px 13px,
+      rgba(183, 131, 167, 0.09) 0px -3px 5px;
+  }
+}
+
+.time-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.time-number {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time-number span {
+  color: rgb(183, 131, 167);
+}
+
+.time-range {
+  display: flex;
+}
+
+.time-range {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.time-range-current {
+  background-color: rgb(183, 131, 167);
+  width: 0%;
+  height: 5px;
+  border-radius: 5px;
+  animation: playing 40s linear 0s infinite;
+}
+
+@keyframes playing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.time-range-pointer {
+  background-color: rgb(183, 131, 167);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  right: 5px;
+}
+
+.control-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.control-bar i:nth-child(3) {
+  font-size: 50px;
+}
+
+.control-bar i {
+  transition: transform 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.control-bar i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: rgb(183, 131, 167);
+}

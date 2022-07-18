@@ -1,0 +1,45 @@
+.notice-screen {
+  margin-top: 100px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.note-column {
+  display: flex;
+  align-items: center;
+}
+
+.note-column img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.note-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-desc {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.note-time {
+  font-size: 13px;
+}
+
+.note-new {
+  font-size: 13px;
+  font-weight: bold;
+  color: red;
+}
+
+.note:last-child {
+  background-color: white;
+}

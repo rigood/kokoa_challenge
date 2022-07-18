@@ -1,0 +1,75 @@
+.more-screen {
+  margin-top: 100px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 30px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-row span {
+  opacity: 0.5;
+}
+
+.icon-row__icon i {
+  font-size: 25px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-row__icon img {
+  margin-bottom: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-row__icon:hover {
+  will-change: transform;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../img/logo-dolphin.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0px -25px;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.ad-column:first-child {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ad-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ad-desc {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ad-column img {
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+}

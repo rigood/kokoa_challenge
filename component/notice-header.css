@@ -1,0 +1,38 @@
+.notice-header {
+  position: fixed;
+  top: 30px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: #fcf5eb;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.notice-header__column {
+  width: 33%;
+}
+
+.notice-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.notice-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .notice-header__title h1 */
+
+.notice-header i {
+  font-size: 20px;
+}
+
+/* Only for Chat-screen */
+
+.chat-header-magnifying-icon {
+  margin-right: 20px;
+}
