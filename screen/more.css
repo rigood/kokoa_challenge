@@ -39,7 +39,7 @@
   transform: scale(1.2);
 }
 
-.ad {
+.ost {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,24 +51,24 @@
   padding: 30px;
 }
 
-.ad-column:first-child {
+.ost-column:first-child {
   display: flex;
   flex-direction: column;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.ad-title {
+.ost-title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.ad-desc {
+.ost-desc {
   font-size: 15px;
   font-weight: bold;
 }
 
-.ad-column img {
+.ost-column img {
   width: 55px;
   height: 55px;
   border-radius: 5px;
