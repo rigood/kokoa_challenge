@@ -3,4 +3,5 @@
   --bg-blue: #c5e1f6;
   --gradient: linear-gradient(#fcf5eb, #c5e1f6);
   --gradient-to-right: linear-gradient(to right, #fcf5eb, #c5e1f6);
+  --gray: rgba(0, 0, 0, 0.3);
 }

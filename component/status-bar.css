@@ -32,3 +32,9 @@
 .status-bar__column:last-child span {
   margin-right: 5px;
 }
+
+@media screen and (max-width: 330px) {
+  .status-bar {
+    font-size: 14px;
+  }
+}
