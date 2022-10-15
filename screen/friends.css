@@ -1,7 +1,7 @@
 .friends-screen {
   margin-top: 100px;
   height: 120vh;
-  background: linear-gradient(#fcf5eb, #c5e1f6);
+  background: var(--gradient);
 }
 
 .intro-bar {

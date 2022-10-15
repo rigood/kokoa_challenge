@@ -7,7 +7,7 @@
 }
 
 .preview {
-  background: linear-gradient(to right, #fcf5eb, #c5e1f6);
+  background: var(--gradient-to-right);
   border-radius: 15px;
   margin: 20px 30px 60px 30px;
   padding: 20px 15px;
@@ -42,7 +42,7 @@
 }
 
 .open-chat {
-  background: linear-gradient(to right, #fcf5eb, #c5e1f6);
+  background: var(--gradient-to-right);
   border-radius: 15px;
   margin: 20px 30px 0px 30px;
   padding: 20px;
