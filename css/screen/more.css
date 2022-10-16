@@ -43,7 +43,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url("https://rigood.github.io/img/logo-dolphin.jpg") no-repeat;
+  background-image: url("../../img/logo-dolphin.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -25px;
   border-radius: 30px;
